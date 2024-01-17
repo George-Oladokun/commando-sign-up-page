@@ -1,0 +1,64 @@
+body{
+    background: radial-gradient(rgb(177, 15, 15), rgba(0, 0, 255, 0.608), yellow);
+}
+h1{
+    text-align: center;
+    color: red;
+}
+input{
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: red;
+}
+.top1{
+    text-align: center;
+}
+.top2{
+    text-align: center;
+    margin-top: 5px;
+}
+.top3{
+    text-align: center;
+    margin-top: 5px;
+}
+.top4{
+    text-align: center;
+    margin-top: 5px;
+}
+.top5{
+    text-align: center;
+    margin-top: 5px;
+}
+.top6{
+    text-align: center;
+    margin-top: 5px;
+}
+.top{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.already{
+    text-align: center;
+    margin-top: 10px;
+}
+.but{
+    text-align: center;
+    margin-top: 10px;
+}
+button{
+    height: 40px;
+    width: 30%;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
+@media (max-width: 600px) {
+    input, button {
+        width: 100%;
+        max-width: none; 
+    }
+}
